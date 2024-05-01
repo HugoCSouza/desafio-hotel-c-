@@ -9,6 +9,7 @@ namespace DesafioProjetoHospedagem.Models
             TipoSuite = tipoSuite;
             Capacidade = capacidade;
             ValorDiaria = valorDiaria;
+            Console.WriteLine("A suíte do tipo " + TipoSuite + $" foi criada!\nNela, é possivel alocar {Capacidade} hóspedes, custando R${ValorDiaria} por dia, sem desconto!\n");
         }
 
         public string TipoSuite { get; set; }

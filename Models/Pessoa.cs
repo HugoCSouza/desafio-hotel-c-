@@ -7,14 +7,14 @@ public class Pessoa
     public Pessoa(string nome)
     {
         Nome = nome;
-        Console.WriteLine($"O hóspede {nome} foi cadastrado!");
+        Console.WriteLine($"O hóspede {nome} foi cadastrado!\n");
     }
 
     public Pessoa(string nome, string sobrenome)
     {
         Nome = nome;
         Sobrenome = sobrenome;
-        Console.WriteLine($"O hóspede {NomeCompleto} foi cadastrado!");
+        Console.WriteLine($"O hóspede {NomeCompleto} foi cadastrado!\n");
     }
 
     public string Nome { get; set; }

@@ -16,11 +16,14 @@ hospedes.Add(p1);
 hospedes.Add(p2);
 
 // Cria a suíte
-Suite suite = new Suite(tipoSuite: "Premium", capacidade: 2, valorDiaria: 30);
+Suite suiteP = new Suite(tipoSuite: "Premium", capacidade: 2, valorDiaria: 30);
+Suite suiteB = new Suite(tipoSuite: "Basica", capacidade: 5, valorDiaria: 10);
+Suite suiteM = new Suite(tipoSuite: "Master", capacidade: 4, valorDiaria: 50);
+Suite suiteE = new Suite(tipoSuite: "Elite", capacidade: 10, valorDiaria: 150);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
 Reserva reserva = new Reserva(diasReservados: 5);
-reserva.CadastrarSuite(suite);
+reserva.CadastrarSuite(suiteP);
 reserva.CadastrarHospedes(hospedes);
 
 // Exibe a quantidade de hóspedes e o valor da diária

@@ -6,11 +6,14 @@ namespace DesafioProjetoHospedagem.Models
         public Suite Suite { get; set; }
         public int DiasReservados { get; set; }
 
-        public Reserva() { }
+        public Reserva() { 
+            Console.WriteLine($"Reserva de {DiasReservados} iniciada!\n");
+        }
 
         public Reserva(int diasReservados)
         {
             DiasReservados = diasReservados;
+            Console.WriteLine($"Reserva de {DiasReservados} iniciada!\n");
         }
 
         public void CadastrarHospedes(List<Pessoa> hospedes)
