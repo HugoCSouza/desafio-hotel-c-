@@ -1,21 +1,14 @@
-# DIO - Trilha .NET - Explorando a linguagem C#
-www.dio.me
+# Desafio de projeto da implentação de um sistema de hotel em C#
+Este repositório foi desenvolvido com intuito de apresentar o trabalho de desafio de projeto para finalização da trilha de C# na [DIO](https://www.dio.me/).
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de explorando a linguagem C#, da trilha .NET da DIO.
+## Proposta
+A proposta do projeto é desenvolver um sistema de C#, utilizando conceitos de POO e conhecimento da linguagem em C# para complementar e terminar o trabalho. Parte do código foi compartilhado, incubido aos alunos terminar o código.
 
-## Contexto
-Você foi contratado para construir um sistema de hospedagem, que será usado para realizar uma reserva em um hotel. Você precisará usar a classe Pessoa, que representa o hóspede, a classe Suíte, e a classe Reserva, que fará um relacionamento entre ambos.
-
-O seu programa deverá cálcular corretamente os valores dos métodos da classe Reserva, que precisará trazer a quantidade de hóspedes e o valor da diária, concedendo um desconto de 10% para caso a reserva seja para um período maior que 10 dias.
-
-## Regras e validações
-1. Não deve ser possível realizar uma reserva de uma suíte com capacidade menor do que a quantidade de hóspedes. Exemplo: Se é uma suíte capaz de hospedar 2 pessoas, então ao passar 3 hóspedes deverá retornar uma exception.
-2. O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
-3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
-
-
+A topologia do código está demonstra na imagem abaixo.
 ![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
 
+## Execução
+Foi implementado no código as funções faltantes, além de apresentar uma mensagem básica de demonstrações de cadastro em cada uma das classes dos objetos e desenvolvido um método para apresentar um resumo das caracteristicas da reserva para melhor vizualizução.
+
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O projeto foi concluido com sucesso no que se propôs e será arquivado, podendo ser reabilitado a qualquer momento que o dono do repositório sentir necessidade. Caso necessário, entre em contato através do meu [perfil](https://github.com/HugoCSouza).
